@@ -1,0 +1,13 @@
+.groups-near > h3 {
+    padding-left:5%;
+}
+
+
+.groups-near > ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.groups-near > ul > p {
+    font-weight:bold
+}

@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MeetUpLogo from './components/MeetUpLogo/MeetUpLogo'
+import NavBar from './components/NavBar/NavBar'
+import HeadPart from './components/HeaderPart/HeaderPart'
+import EventsNear from './components/EventsNear/EventsNear'
+import GroupsNear from './components/GroupsNear/GroupsNear'
+import CategoriesNear from './components/CategoriesNear/CategoriesNear'
+import Faq from './components/Faq/Faq'
+import SiteMap from './components/SiteMap/SiteMap'
+import LogoAndNavBar from './components/MeetUpLogoAndNavBar/MeetUpLogoAndNavBar'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LogoAndNavBar />
+      <HeadPart />
+      <EventsNear />
+      <GroupsNear />
+      <CategoriesNear />
+      <Faq />
+      <SiteMap />
+   
     </div>
   );
 }

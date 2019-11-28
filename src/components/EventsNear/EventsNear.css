@@ -1,0 +1,8 @@
+.events-near > ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.events-near > h3 {
+    padding-left:5%;
+}

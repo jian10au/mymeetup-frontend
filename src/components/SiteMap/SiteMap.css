@@ -1,0 +1,21 @@
+.site-map {
+    display:flex;
+    justify-content: space-around;
+    background-color: #353E48;
+    color:white;
+}
+
+.site-map > ol {
+    display:flex;
+    flex-direction: column;
+
+}
+
+ol > p {
+    font-weight: bold;
+}
+
+ol > a {
+    text-decoration: none;
+    color:white
+}

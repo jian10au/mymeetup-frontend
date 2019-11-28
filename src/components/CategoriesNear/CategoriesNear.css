@@ -1,0 +1,23 @@
+.categories-near > ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+.categories-near > h3,p {
+    padding-left:5%;
+}
+
+.categories-grid-container {
+    display:grid;
+    grid-template-rows:auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.categories-grid-container > p {
+    margin: 0px;
+    border: 1px solid black;
+    height: 200px;
+}
+
+
+

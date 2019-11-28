@@ -1,0 +1,9 @@
+.LogoAndNav {
+    display:flex;
+    justify-content: space-between;
+}
+
+.LogoAndNav > div {
+    border:1px solid grey
+    
+}
