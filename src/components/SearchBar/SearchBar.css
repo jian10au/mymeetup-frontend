@@ -1,0 +1,39 @@
+.search-bar-container {
+    position:relative;
+    background-color:#00455D;
+    
+    color:white;
+    height:169px;
+}
+
+.search-bar-container > p {
+    font-size:48px;
+}
+
+
+.search-bar-container > .search-bar-background {
+    position:relative;
+    bottom:50px;
+    width: 500px;
+    height:100px;
+    background-color:grey;
+} 
+
+
+
+
+.search-form {
+    display:flex;
+    justify-content: space-around;
+    height:33%;
+    margin-left:15%;
+    margin-right:15%;
+    position:relative;
+    top:30px;
+    background-color:#0F1721;
+    padding:10px;
+}
+
+.search-form > input {
+    height:50%;
+}

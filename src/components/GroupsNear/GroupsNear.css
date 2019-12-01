@@ -11,3 +11,12 @@
 .groups-near > ul > p {
     font-weight:bold
 }
+
+.links {
+    text-decoration: none;
+    color:black
+}
+
+.links:hover {
+    color:red;
+}

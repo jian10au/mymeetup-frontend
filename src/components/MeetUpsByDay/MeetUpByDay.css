@@ -1,0 +1,16 @@
+.event-container {
+
+    margin:0px;
+
+}
+
+.meet-up-by-day-container {
+    margin-top:80px;
+  
+}
+
+.event-container {
+    margin-top:4px;
+    background-color: #FFFFFF;
+    border:1px solid grey
+}
